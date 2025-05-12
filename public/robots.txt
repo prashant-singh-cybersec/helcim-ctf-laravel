@@ -1,0 +1,13 @@
+# robots.txt for Invotek's Invoice Management System
+
+# Allow all bots to crawl the API endpoints
+User-agent: *
+Allow: /api/*
+
+# Disallow bots from accessing the admin panel
+Disallow: /admin/panel
+
+# Disallow bots from accessing the DEV endpoints
+/api/v1/invoice?invoiceid
+
+# Flag: helcim{robot_reveals_secrets}
