@@ -40,7 +40,7 @@
                 <h3 class="text-2xl font-bold text-indigo-700">🧑‍💻 User Roles</h3>
                 <p class="text-gray-700 text-sm">
                     <strong>👑 Admin:</strong> The overseer. Has full control over customers, invoices, and user roles.<br>
-                    <strong>👤 User:</strong> Can create and manage customers and invoices.<br>
+                    <strong>👤 User:</strong> Can have read access to basic functionalities.<br>
                 </p>
             </div>
 

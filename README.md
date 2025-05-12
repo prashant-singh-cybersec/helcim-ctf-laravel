@@ -9,10 +9,12 @@ This project is a deliberately vulnerable Laravel-based Invoice Management Syste
 
 ## 🚀 Features
 
-- Role-based access control  
+- Role-based access control/User Management
 - Invoice creation and public viewing  
 - Customer management  
 - Internal paid features  
+- User feedback mechanism
+- New Feature Request functionality
 - Dockerized for easy deployment  
 
 ---
@@ -49,7 +51,7 @@ This project is a deliberately vulnerable Laravel-based Invoice Management Syste
 Open your browser and navigate to:
 
 ```
-http://127.0.0.1:8081
+http://127.0.0.1:8081 Or http://localhost:8081
 ```
 
 You should see the CTF application’s landing page.
@@ -66,6 +68,7 @@ You should see the CTF application’s landing page.
 3. **Create Customer** objects.  
 4. **Issue Invoices** to those Customers.  
 5. Share issued invoices via a **public link**.
+6. Play with every **given/hidden** functionality within the application.
 
 ### Challenges & Vulnerabilities
 
@@ -89,7 +92,7 @@ Feel free to fork the repo and raise pull requests for any improvements or new c
 
 ---
 
-## ✍️ Author
+## Author
 
 **Prashant Singh**  
 [GitHub Profile](https://github.com/prashant-singh-cybersec)
